@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOSCH SMART START</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: url("static/arkaplan.jpg") no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+		.container {
+    position: absolute; /* Konumu sabitlemek için */
+    bottom: 1%; /* Ekranın altına %10 mesafe bırakır */
+    left: 50%;
+    transform: translateX(-50%); /* Sayfanın ortasında hizalar */
+    width: 30%; /* Kutu genişliğini küçültür */
+    background: rgba(0, 0, 0, 0.6); /* Arka plan rengini şeffaflaştırdık */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.0em; /* Başlık boyutunu küçülttük */
+    font-style: italic; /* İtalik yazı tipi */
+}
+
+p {
+    font-size: 1.0em; /* Alt yazı boyutunu küçülttük */
+    font-style: italic; /* İtalik yazı tipi */
+}
+
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="static/muzik.mp3" type="audio/mpeg">
+        Tarayıcınız müziği desteklemiyor.
+    </audio>
+
+    <div class="container">
+        <h1>❤️ iyi ki benim sevgilimsin güzelim günümüz kutlu olsun ❤️</h1>
+        <p> Seni çok seviyorum 💖</p>
+    </div>
+</body>
+</html>
+
