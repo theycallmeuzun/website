@@ -1,2 +1,2 @@
-echo "flask\ngunicorn" > requirements.txt
-
+flask
+gunicorn
